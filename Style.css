@@ -1,0 +1,49 @@
+body {
+	background-image: linear-gradient(150deg, rgb(0,0,0), rgb(58, 85, 124), rgb(255, 255, 255))
+	background-size: 100%;
+	background-attachment: fixed;
+
+
+}
+
+
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "open Sans" , sans-serif;
+}
+	
+#menu-h{
+	list-style: none;
+	padding: 0;
+	background-color: rgb(37, 37, 39);
+}
+	
+#menu-h li{
+	display: inline;	
+}
+
+#menu-h li a{
+	color: #fff;
+	padding: 20px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background  .4s;
+}
+
+#menu-h li a:hover {
+	background-color: rgb(24, 139, 233);}
+
+#menu-h li:last-child a{
+	float: right;
+	background-color: rgb(24, 139, 233);
+
+}	
+
+h1{
+	text-align: center;
+	font-family: Lucida Handwriting;
+	font-size: 60px;
+	color: rgb(255, 255, 255);
+}
