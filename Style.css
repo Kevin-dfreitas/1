@@ -1,14 +1,24 @@
 body {
-	background-image: linear-gradient(150deg, rgb(0,0,0), rgb(58, 85, 124), rgb(255, 255, 255))
+    background-image: linear-gradient(#a595ca, #ffff) ;
 	background-size: 100%;
-	background-attachment: fixed;
+    background-attachment: fixed;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
 
 
 }
 
 
+
 *{
-	margin: 0 auto;
+	margin: 0%;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "open Sans" , sans-serif;
@@ -16,8 +26,10 @@ body {
 	
 #menu-h{
 	list-style: none;
-	padding: 0;
-	background-color: rgb(37, 37, 39);
+	padding: 8;
+	background-color:#220B57;
+    background-size: 20%;
+    margin: 10px;
 }
 	
 #menu-h li{
@@ -33,17 +45,34 @@ body {
 }
 
 #menu-h li a:hover {
-	background-color: rgb(24, 139, 233);}
+	background-color: #EE217F;}
 
 #menu-h li:last-child a{
 	float: right;
-	background-color: rgb(24, 139, 233);
+	background-color: #EE217F;
+    transition: none;
 
 }	
 
 h1{
-	text-align: center;
-	font-family: Lucida Handwriting;
-	font-size: 60px;
-	color: rgb(255, 255, 255);
+    font-size: 400%;
+    text-align: center;
+    color:#EE217F;
+    
+
 }
+
+.footer {
+    background-color: #F1F1F1;
+    
+    padding: 10px;
+  }
+
+
+
+  
+      
+	
+
+
+  
