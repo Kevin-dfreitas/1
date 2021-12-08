@@ -59,14 +59,20 @@ h1{
     font-size: 400%;
     text-align: left;
     color:#EE217F;
-    
-
 }
 
-.footer {
-    background-color: #F1F1F1;
-    
-    padding: 10px;
+h2{
+    text-align: left;
+    color:#EE217F;
+}
+
+
+footer {
+    background-color: #220B57;
+	background-size: 1000% 500%;
+	background;
+	text-align: center;
+	text-decoration-color: white;
   }
 
 
