@@ -62,15 +62,15 @@ h1{
 }
 
 h2{
-    text-align: left;
+    text-align:left;
     color:#EE217F;
+	text-align-last: left;
 }
 
 
 footer {
     background-color: #220B57;
 	background-size: 1000% 500%;
-	background;
 	text-align: center;
 	text-decoration-color: white;
   }
