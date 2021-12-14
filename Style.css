@@ -53,37 +53,31 @@ body {
 
 
 
-h1{
-    font-size: 400%;
-    text-align: left;
+h3{
+	text-align:center ;
     color:#EE217F;
 	margin: 1%;
 }
 
 h2{
-    text-align:left;
+    text-align:center ;
     color:#EE217F;
-	text-align: justify;
 	margin: 1%;
 }
 
 
-footer {
-    background-color: #d39ad8;
-	background-size: auto;
-	text-align: center;
-	
-	
-  }
+
 
   P {
 	margin: 1%;
+	text-align: center;
 	}
 
   div {
 	margin: 1%;
   }
 
+  
 
   
 
