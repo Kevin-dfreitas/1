@@ -2,21 +2,9 @@ body {
     background-image: linear-gradient(#a595ca, #ffff) ;
 	background-size: 100%;
     background-attachment: fixed;
-	margin: 25px;
+	
 
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-    
-
-
-}
-
-
 
 *{
 	margin: 0%;
@@ -27,14 +15,13 @@ img{
 	
 #menu-h{
 	list-style: none;
-	padding: 8;
 	background-color:#220B57;
-    background-size: 20%;
-    margin: 10px;
+    background-size: 10%;
 }
 	
 #menu-h li{
-	display: inline;	
+	display: inline;
+		
 }
 
 #menu-h li a{
@@ -42,6 +29,7 @@ img{
 	padding: 20px;
 	display: inline-block;
 	text-decoration: none;
+	font-family: arial;
 	transition: background  .4s;
 }
 
@@ -52,29 +40,54 @@ img{
 	float: right;
 	background-color: #EE217F;
     transition: none;
-
 }	
+
+#menu-h li ul{
+	position:absolute;
+	background-color:#fff;
+	display:none
+}
+
+
+
+
+
 
 h1{
     font-size: 400%;
     text-align: left;
     color:#EE217F;
+	margin: 1%;
 }
 
 h2{
     text-align:left;
     color:#EE217F;
 	text-align: justify;
+	margin: 1%;
 }
 
 
 footer {
-    background-color: #220B57;
-	background-size: 1000% 500%;
+    background-color: #d39ad8;
+	background-size: auto;
 	text-align: center;
-	text-decoration-color: white;
+	
+	
   }
 
+  P {
+	margin: 1%;
+	}
+
+  div {
+	margin: 1%;
+  }
+
+
+  
+
+ 
 
 
   
