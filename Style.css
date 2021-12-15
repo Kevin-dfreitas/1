@@ -48,11 +48,6 @@ body {
 	display:none
 }
 
-
-
-
-
-
 h3{
 	text-align:center ;
     color:#EE217F;
@@ -65,16 +60,41 @@ h2{
 	margin: 1%;
 }
 
-
-
-
   P {
 	margin: 1%;
 	text-align: center;
 	}
 
   div {
-	margin: 1%;
+	text-align: center;
+	border: 1px solid #EE217F;
+	border-width: initial;
+	margin-left: 30%;
+	 }
+
+  div.gallery {
+	border: 1px solid #ccc;
+	width: 500px;
+	height: 350px;
+	justify-content: center;
+	text-align: center;
+	margin-left: 30%;
+	margin-top: 2%;
+  }
+
+  div.gallery:hover {
+	border: 1px solid #EE217F;
+  }
+
+  div.gallery img {
+	width: 100%;
+	height: 100%;
+  }
+
+
+  P {
+	text-align: center;
+	margin: 10px;
   }
 
   
